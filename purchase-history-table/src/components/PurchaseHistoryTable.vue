@@ -56,17 +56,6 @@ import { defineComponent, ref, onMounted } from "vue";
 import { formatDate, formatPurchasePrice, getCategoryClass } from "../utils";
 
 export default defineComponent({
-  props: {
-    items: {
-      type: Array,
-      default: () => [],
-    },
-    isLoading: {
-      type: Boolean,
-      default: true,
-    },
-  },
-
   setup() {
     const items = ref([]);
     const isLoading = ref(true);
