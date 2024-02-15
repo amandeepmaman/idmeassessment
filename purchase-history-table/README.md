@@ -75,7 +75,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Unit Testing
 
-This project includes unit tests to verify the behavior of the `ItemTable` component. To run the tests, execute the following command:
+This project includes unit tests to verify the behavior of the `PurchaseHistoryTable` component. To run the tests, execute the following command:
 
 ```bash
 npm test
